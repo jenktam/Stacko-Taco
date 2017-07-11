@@ -1,0 +1,10 @@
+{
+  "name": "Code Snippet Copier",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "This chrome extension allows you to copy code within your Stack Overflow searches with the click of a button. This expedites the amount of time it takes developers to copy and test code.",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "overlay.html"
+  }
+}
