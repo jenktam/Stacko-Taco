@@ -6,7 +6,7 @@ Ever spend your day scouring Stack Overflow's website and wish you had more taco
 ![extension](https://cdn.pbrd.co/images/GAHTeS3.png)
 
 ## Install the Chrome Extension
-Install the app from [chrome store][https://chrome.google.com/webstore/detail/stacko-taco/dklaccacmampgfejkkkcbgchkafhfgoa].
+Install the app from [chrome store](https://chrome.google.com/webstore/detail/stacko-taco/dklaccacmampgfejkkkcbgchkafhfgoa).
 
 ## Creator
 Jen Tam
