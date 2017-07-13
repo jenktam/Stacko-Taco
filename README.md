@@ -1,3 +1,3 @@
-# Code Snip
+# Stacko Taco
 
-Code Snip is a productivity tool for developers. When developers have errors, they can download this extension, which shows a "Copy" button overlay on code snippets within Stack Overflow. This button will copy all of the desired text, creating a more seamless experience from web to terminal or text editor.
+Ever spend your day scouring Stack Overflow's website and wish you had more taco? Well Stacko Taco is here to save the day! Never miss out again!

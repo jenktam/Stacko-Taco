@@ -1,19 +1,20 @@
 {
-  "name": "Code Snip",
+  "name": "Stacko Taco",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "This chrome extension allows you to copy code within your Stack Overflow searches with the click of a button. This expedites the amount of time it takes developers to copy and test code.",
+  "description": "This chrome extension is for people who just can't get enough tacos!",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Code Snip",
+    "default_title": "Stacko Taco",
     "default_popup": "overlay.html"
   },
-  //when making a rest API call, need ref for where making API call to
-  "permissions": [
-
-  ]
+  "content_scripts": [{
+    "css": ["css/styles.css"],
+    "js": ["js/overlay.js"],
+    "matches": ["https://stackoverflow.com/*"]
+  }]
 }

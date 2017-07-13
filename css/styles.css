@@ -10,3 +10,22 @@ body {
   min-height: 150px;
   max-height: 300px;
 }
+
+body {
+  background: url('https://media.giphy.com/media/l3q2tvaYp4KseN22A/giphy.gif') !important;
+}
+
+#masthead,
+#primary {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
