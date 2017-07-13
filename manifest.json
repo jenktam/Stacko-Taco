@@ -1,10 +1,19 @@
 {
-  "name": "Code Snippet Copier",
+  "name": "Code Snip",
   "version": "1.0",
   "manifest_version": 2,
   "description": "This chrome extension allows you to copy code within your Stack Overflow searches with the click of a button. This expedites the amount of time it takes developers to copy and test code.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "browser_action": {
     "default_icon": "icon.png",
+    "default_title": "Code Snip",
     "default_popup": "overlay.html"
-  }
+  },
+  //when making a rest API call, need ref for where making API call to
+  "permissions": [
+
+  ]
 }
